@@ -27,7 +27,8 @@ setlinestyle(0,0,3);
 x1= X+ (80 * cos(t*0.1047));
 y1= Y+ (80 * sin(t*0.1047));
 
-setcolor(BLACK);
+/* Color for Hands Of A Clock */
+setcolor(YELLOW);
 line( X, Y, x1, y1);
 
 setcolor(WBC+1);
