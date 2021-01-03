@@ -27,10 +27,10 @@ setlinestyle(0,0,3);
 x1= X+ (80 * cos(t*0.1047));
 y1= Y+ (80 * sin(t*0.1047));
 
-/* Color for Hands Of A Clock */
+/*Color for HourHand*/
 setcolor(YELLOW);
 line( X, Y, x1, y1);
-
+/*Color for MinHand*/
 setcolor(WBC+1);
 line( X, Y, X+ 80 * cos((t-1)*0.1047),Y+ 80 * sin((t-1)*0.1047));
 circle(X,Y,4);
@@ -43,7 +43,7 @@ setlinestyle(0,0,3);
 
 x1= X+(100 * cos(t*0.1047));
 y1= Y+(100 * sin(t*0.1047));
-
+/*Color for SecHand*/
 setcolor(BLUE);
 line(X, Y, x1, y1);
 
