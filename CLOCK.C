@@ -1,3 +1,11 @@
+/*
+ * DIGITAL CLOCK
+ * By
+ * Tejas Malwatkar
+ * Aniket Thale
+ * Piyush Joshi 
+ * 03-01-2021
+ */
 #include<conio.h>
 #include<graphics.h>
 #include<math.h>
